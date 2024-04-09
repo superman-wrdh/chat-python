@@ -25,7 +25,7 @@
         };
 
         $.ajax({
-            url: 'http://localhost:5000/chat',
+            url: '/chat',
             type: "POST",
             contentType: "application/json",
             dataType: "json",
